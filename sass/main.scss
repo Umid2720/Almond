@@ -8,3 +8,29 @@
     font-family: 'playfairdisplay';
     src: url('../fonts/playfairdisplay-variablefont_wght-webfont.woff') format("truetype");
 }
+
+// Global styles
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "playfairdisplay", sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: font-weight 0.5s;
+
+    &:hover {
+        font-weight: bold;
+    }
+}
+
