@@ -119,4 +119,9 @@ a:hover {
 }
 .recipes__card:hover .recipes__card-cover {
   opacity: 1;
+}
+
+.choose {
+  text-align: center;
+  margin: 3rem 1rem;
 }/*# sourceMappingURL=main.css.map */
