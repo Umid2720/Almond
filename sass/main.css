@@ -70,4 +70,53 @@ a:hover {
   margin-top: 4rem;
   margin-bottom: 10rem;
   background-color: #000;
+}
+
+.recipes {
+  text-align: center;
+}
+.recipes__wrapper {
+  padding: 1rem;
+  display: flex;
+  gap: 2rem 1rem;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  max-width: 1340px;
+  justify-content: center;
+}
+.recipes__card {
+  flex: 1 1 40%;
+  height: 500px;
+  cursor: pointer;
+  position: relative;
+  background-size: cover;
+  background-color: red;
+  background-position: center;
+}
+.recipes__card:first-child {
+  background-image: url("../images/1.jpg");
+}
+.recipes__card:nth-child(2) {
+  background-image: url("../images/2.jpg");
+}
+.recipes__card:nth-child(3) {
+  background-image: url("../images/3.jpg");
+}
+.recipes__card:last-child {
+  background-image: url("../images/4.jpg");
+}
+.recipes__card-cover {
+  inset: 0;
+  opacity: 0;
+  color: #fff;
+  display: flex;
+  padding: 0 2rem;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5803921569);
+  transition: opacity 0.5s linear;
+}
+.recipes__card:hover .recipes__card-cover {
+  opacity: 1;
 }/*# sourceMappingURL=main.css.map */
