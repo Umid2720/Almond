@@ -89,6 +89,10 @@ a {
 .recipes {
   text-align: center;
 
+  h2 {
+    padding: 1.5rem 0;
+  }
+
   &__wrapper {
     padding: 1rem;
     display: flex;
@@ -170,8 +174,8 @@ a {
       padding: 0 0.5rem;
 
       h1 {
+        margin: 2rem 0;
         font-size: 1.5rem;
-        margin-bottom: 2rem;
       }
 
       p {
@@ -179,7 +183,7 @@ a {
       }
 
       div {
-        margin-top: 2rem;
+        margin: 2rem 0;
       }
     }
   }
