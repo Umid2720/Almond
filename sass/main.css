@@ -126,6 +126,35 @@ a:hover {
   margin: 3rem 1rem;
 }
 
+@media (min-width: 0) and (max-width: 490.9px) {
+  .header__navbar {
+    justify-content: center;
+  }
+  .header__navbar a {
+    font-size: 12px;
+  }
+  .header__menu {
+    -moz-column-gap: 0.5rem;
+         column-gap: 0.5rem;
+  }
+  .header__information {
+    padding: 0 0.5rem;
+  }
+  .header__information h1 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .header__information p {
+    font-size: 1rem;
+  }
+  .header__information div {
+    margin-top: 2rem;
+  }
+  .recipes__card {
+    height: 300px;
+    flex: 0 0 100%;
+  }
+}
 @media (min-width: 491px) and (max-width: 775.9px) {
   .recipes__card {
     height: 300px;

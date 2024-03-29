@@ -151,6 +151,46 @@ a {
 
 // Media query - responsive for all devices
 
+// Mobile
+@media (min-width: 0) and (max-width: 490.9px) {
+  .header {
+    &__navbar {
+      justify-content: center;
+
+      a {
+        font-size: 12px;
+      }
+    }
+
+    &__menu {
+      column-gap: 0.5rem;
+    }
+
+    &__information {
+      padding: 0 0.5rem;
+
+      h1 {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      div {
+        margin-top: 2rem;
+      }
+    }
+  }
+
+  .recipes__card {
+    height: 300px;
+    flex: 0 0 100%;
+  }
+}
+
+// Tablet
 @media (min-width: 491px) and (max-width: 775.9px) {
   .recipes__card {
     height: 300px;
