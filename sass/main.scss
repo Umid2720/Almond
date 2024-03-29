@@ -148,3 +148,11 @@ a {
   text-align: center;
   margin: 3rem 1rem;
 }
+
+// Media query - responsive for all devices
+
+@media (min-width: 491px) and (max-width: 775.9px) {
+  .recipes__card {
+    height: 300px;
+  }
+}
